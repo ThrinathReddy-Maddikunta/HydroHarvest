@@ -1,0 +1,44 @@
+## Reference Youtube Video:
+
+- https://youtu.be/9UKCv9T_rIo
+
+https://youtu.be/9UKCv9T_rIo?start=292
+
+## Tech Stack Used:
+
+- React Native
+- Expo
+- Tailwind CSS
+- TypeScript
+- Android Studio
+
+## Commands Used to Run:
+
+- npx expo start ---> start application
+- npm install -g eas-cli --> Install the build generator
+- eas login (ThrinathReddyM_7 \ SBHTON618)
+- eas build:configure --> First time only
+- eas build --platform android --> generate android build (APK will be uploaded into EAS servers)
+- Node Version used was 18.19.1
+
+To update the application pacakge we need to go to app.json and update it. we cannot change the slug name and the projectID in extra's properties
+
+====================================================================================
+========================== Last Build Notes - Aug 27 2024 ==========================
+====================================================================================
+Loaded "env" configuration for the "production" profile: no environment variables specified. Learn more: https://docs.expo.dev/build-reference/variables/
+✔ Using remote Android credentials (Expo server)
+✔ Using Keystore from configuration: Build Credentials 2zxHjSysp- (default)
+
+Compressing project files and uploading to EAS Build. Learn more: https://expo.fyi/eas-build-archive
+✔ Uploaded to EAS 6s
+
+Build details: https://expo.dev/accounts/thrinathreddym_7/projects/aquasave/builds/dc4e2292-e3a6-4647-8811-c062618a66ef
+
+Waiting for build to complete. You can press Ctrl+C to exit.
+✔ Build finished
+
+🤖 Android app:
+https://expo.dev/artifacts/eas/tcR2aUTUvkp2SLijR9H35X.aab
+
+========================================================================================
